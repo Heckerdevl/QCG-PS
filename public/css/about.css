@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+.back{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.684);
+
+}
+ul{
+    display: flex;
+    position: relative;
+    padding: 15px;
+}
+li{
+    margin: 0px 55px;
+    list-style: none;
+    
+}
+.logo{
+    margin-right: 650px;
+    position: relative;
+    margin-left: 23px;
+}
+ul a{
+    text-decoration: none;
+    cursor: pointer;
+    color: wheat;
+}
+.inside-info{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    /* background-color: rgb(0, 6, 28); */
+}
+
+.info-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#h31{
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+}
+.links{
+    /* border: 2px solid white; */
+    width: 500px;
+    margin-top: 40px;
+    height: 260px;
+}
+.head{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 150px;
+    color: aqua;
+
+}
+.details{
+    margin: 23px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+}
+.details a{
+    margin-left: 15px;
+    color: wheat;
+
+}
+.h5{
+    font-weight: normal;
+    margin-top: 2px;
+}
+.photo{
+    margin-top: 23px;
+    margin-left: 585px;
+}
+.photo img{
+    border-radius: 15px;
+    
+}
+#head h2{
+    margin-left: 645px;
+    margin-top: 23px;
+    color:aquamarine;
+}
+#h4{
+    margin-left: -60px;
+}
+a{
+    text-decoration: none;
+}
+header::before{
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    background: url("../Pics/about1.avif") no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+}
+#phone{
+    margin-left: 200px;
+}
+#social{
+    margin-left: 130px;
+}
+#personal{
+    margin-left: -350px;
+}
+#personal1{
+    margin-left: -10px;
+}
+ul i{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -2px;
+    display: none;
+}
+@media (max-width:1475px) {
+    .item-content {
+        display: none;
+    }    
+    ul i{
+        display: block;
+    }
+    .logo{
+        margin: 0px auto ;
+        max-width: 100%;
+    }
+    #head h2{
+        display: block;
+        margin: 0px auto;
+    }
+    .photo{
+        display: none;
+    }
+    .details{
+        margin: auto;
+    }
+    .links{
+        margin: auto;
+    }
+}
